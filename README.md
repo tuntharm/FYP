@@ -1,6 +1,6 @@
-# Deep Learning Approach to Impact Detection in Sensorized Panels
+# Machine Learning for Impact Localisation in Composite Structures
 
-[![CI](https://github.com/tuntharm/FYP/actions/workflows/ci.yml/badge.svg)](https://github.com/tuntharm/FYP/actions/workflows/ci.yml)
+[![CI](https://github.com/tuntharm/shm-impact-detection-xgboost/actions/workflows/ci.yml/badge.svg)](https://github.com/tuntharm/shm-impact-detection-xgboost/actions/workflows/ci.yml)
 
 Research code, processed sample data, and documentation for an Imperial College London final-year project on passive impact detection for structural health monitoring (SHM).
 
