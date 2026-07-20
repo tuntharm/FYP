@@ -4,6 +4,10 @@
 
 Research code, processed sample data, and documentation for an Imperial College London final-year project on passive impact detection for structural health monitoring (SHM).
 
+> **Project status: completed academic research project.** This repository is maintained as a
+> technical evidence and reproducibility pack; it is not a deployed inspection product or an
+> active validation programme.
+
 The project studies a sensorised cylindrical composite hydrogen-tank demonstrator instrumented with piezoelectric transducers. Impact waveforms are converted into interpretable signal features, then XGBoost models infer both impact location and hard/soft impact class. The public repository is organised as a compact evidence pack rather than a raw laboratory data dump.
 
 ## Why This Matters
@@ -27,6 +31,16 @@ The headline metrics below are quoted from the submitted final report, now commi
 | ANN, B+C Top, 10-fold CV | 3.83 +/- 0.39 cm | 77.60 +/- 4.96% | 96.04 +/- 1.92% | 159.30 s localisation, 80.13 s classification |
 
 See [`results/README.md`](results/README.md) for the report table traceability and [`comparison/README.md`](comparison/README.md) for model comparisons and interpretation.
+
+### Preserved development visual
+
+<p align="center">
+  <img src="assets/plots/xgb_predict.png" alt="True and predicted impact positions over the cylindrical tank geometry" width="480" />
+</p>
+
+This preserved XGBoost true-versus-predicted localisation snapshot illustrates the cylindrical
+target geometry and prediction overlay used during development. Its plot title reports that
+snapshot's own RMSE; it is **not** the report-backed 10-fold benchmark above.
 
 ## Technical Workflow
 
@@ -155,6 +169,10 @@ For deeper detail:
 - [`docs/governance/limitations.md`](docs/governance/limitations.md) documents deployment limits, leakage risks, and data-access assumptions.
 - [`docs/governance/collaboration.md`](docs/governance/collaboration.md) frames pilot use cases and what a partner evaluation should check next.
 
-## Status
+## Project Status and Use
 
-No open-source license has been selected yet, so the code and data should be treated as view-only unless permission is granted by the repository owner. See [`NOTICE.md`](NOTICE.md), [`SECURITY.md`](SECURITY.md), and [`CITATION.cff`](CITATION.cff) for usage, contact, and citation metadata.
+This is a completed final-year research project, retained as a public evidence and reproducibility
+pack rather than a deployed or actively validated product. No open-source license has been selected
+yet, so the code and data should be treated as view-only unless permission is granted by the
+repository owner. See [`NOTICE.md`](NOTICE.md), [`SECURITY.md`](SECURITY.md), and
+[`CITATION.cff`](CITATION.cff) for usage, contact, and citation metadata.
