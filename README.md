@@ -1,6 +1,9 @@
 # Machine Learning for Impact Localisation in Composite Structures
 
 [![CI](https://github.com/tuntharm/shm-impact-detection-xgboost/actions/workflows/ci.yml/badge.svg)](https://github.com/tuntharm/shm-impact-detection-xgboost/actions/workflows/ci.yml)
+![Status: completed academic project](https://img.shields.io/badge/status-completed%20academic%20project-0f766e)
+![Scope: research prototype](https://img.shields.io/badge/scope-research%20prototype-475569)
+![Methods: PZT + XGBoost](https://img.shields.io/badge/methods-PZT%20%2B%20XGBoost-2563eb)
 
 Research code, processed sample data, and documentation for an Imperial College London final-year project on passive impact detection for structural health monitoring (SHM).
 
